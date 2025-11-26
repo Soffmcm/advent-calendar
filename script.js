@@ -4,8 +4,9 @@ const content = [
   "<strong>Day 2:</strong> Today i just wanted to let you know that I genuinely never loved someone and felt like someone loved me so truthfully and genuinly as i do about you. Just a reminder that i love you more than anything❤️",
  `<strong>Day 3:</strong> <em>I still remember, third of December, me in your sweater<br>
   You said it looked better on me than it did you<br>
-  Only if you knew how much I like you...<br>
-  <img src="Me in blue hoodie.JPEG" alt="Me in blue hoodie" style="max-width:100%; border-radius:10px; margin-top:10px;"></em>`,  
+  Only if you knew how much I like you...<br></em>
+  <img src="me-in-blue-hoodie.jpeg" alt="Me in blue hoodie" style="max-width:100%; border-radius:10px; margin-top:10px;">
+  <img src="her-in-my-sweater.jpeg" alt="Me in blue hoodie" style="max-width:100%; border-radius:10px; margin-top:10px;">`,
   "<strong>Day 4:</strong> Mini-challenge: Text me 3 things you like about yourself.",
   "<strong>Day 5:</strong> Your smile is literally my favourite thing in the universe.",
   "<strong>Day 6:</strong> If kisses were snowflakes, I’d send you a blizzard ",

@@ -36,7 +36,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let days = Array.from({ length: 24 }, (_, i) => i + 1);
   shuffle(days);
 
-  // TEMP: unlock everything for testing (so no locked class added)
+  // TEMP: unlock everything for testing
+  const today = 24;
+
   // Render doors in shuffled order
   for (let day of days) {
     const door = document.createElement("div");
@@ -46,10 +48,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // click behavior: show popup with the correct message
     door.addEventListener("click", () => {
-      // content array is 0-indexed, days are 1-indexed
+      // TEMP: all doors unlocked for testing
       const message = content[day - 1] || "No content yet for this day.";
       popupText.innerHTML = `<strong>Day ${day}</strong><br><br>${message}`;
-      door.classList.add("opened"); // keep it visible as opened
+      door.classList.add("opened"); // mark door as opened
       popup.classList.remove("hidden");
     });
 

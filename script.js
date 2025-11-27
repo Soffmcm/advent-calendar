@@ -8,11 +8,11 @@ const content = [
   Only if you knew how much I like you...<br></em>
   <img src="me-in-blue-hoodie.jpeg" alt="Me in blue hoodie" style="max-width:100%; border-radius:10px; margin-top:10px;">
   <img src="her-in-my-sweater.jpeg" alt="Me in blue hoodie" style="max-width:100%; border-radius:10px; margin-top:10px;">`,
-  "<strong>Day 4:</strong> Mini-challenge: Text me 3 things you like about yourself.",
-  "<strong>Day 5:</strong> Your smile is literally my favourite thing in the universe.",
-  "<strong>Day 6:</strong> If kisses were snowflakes, I’d send you a blizzard ",
-  "<strong>Day 7:</strong> Tiny dare: Send me a selfie right now ",
-  "<strong>Day 8:</strong> I’m proud of you. More than you know.",
+  "<strong>Day 4:</strong> Today i just wanted to remind you of how much i love your eyes, like they are literally my favourite thing to look into, and it might sound stupid but they genuinely make my heart feel like warm inside. I love you so much baby❤️",
+  "<strong>Day 5:</strong> I am still genuinely surprised as to how YOU (a literal goddess look-a-like with the most adorable smile, who is also so fucking smart and sweet to me and treats me so well and has the most loving soul) somehow decided to be with me (an okay person) but i will forever be grateful for it :)",
+  "<strong>Day 6:</strong> I don’t know it i mentioned this one before but i genuinely love your smile. Like i know you don’t like it but it’s literally so fucking adorable and cute. I will literally do anything just to see you smile. It literally warms up my soul. ",
+  "<strong>Day 7:</strong> I miss you so fucking much. I hope you know that my goal in becoming an engineer is so that i can become talented enough to create the world’s first teleport so that i can see you every single day (have fun getting rid of me then hahah)",
+  "<strong>Day 8:</strong> I genuinely cannot wait to go to uni, and i hope you know im the type of person who used to me TERRIFIED of going to uni. The only thing that makes me look forwards to it is the fact that we’ll be seeing each other WAYYYY more often :)",
   "<strong>Day 9:</strong> Pickup line: Are you Christmas? Because I wait all year for you ",
   "<strong>Day 10:</strong> Challenge: Guess a number between 1–10. If you're right, you get a reward ;)",
   "<strong>Day 11:</strong> You make everything feel warmer.",

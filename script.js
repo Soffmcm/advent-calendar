@@ -2,12 +2,21 @@
 const content = [
   "<strong>Day 1:</strong> Hi babyyy, as the first note of this calendar i thought i’d just explain what this is all about. <br> After that  time u told me that you wanted an advent calendar, i thought “omg let me look for a lipgloss one online and try to get it for her” but unfortunately i don’t have 60€ (as the cheapest option), but then i thought “wait why don’t i try do something else?” And i came up with the idea of making this kind of calendar :) which i thought could be sweet too :) <br><strong>But how does it work?</strong> <br> Well every day a new “day” will unlock and you can see a little note that i left for you for that day :) and don’t even try to open future days because i made sure that they are locked until its time to open them :))",
   "<strong>Day 2:</strong> Today i just wanted to let you know that I genuinely never loved someone and felt like someone loved me so truthfully and genuinly as i do about you. Just a reminder that i love you more than anything❤️",
- `<strong>Day 3:</strong> <em>I still remember, third of December,<br> 
+ 
+  `<strong>Day 3:</strong> <em>I still remember, third of December,<br> 
   me in your sweater<br>
   You said it looked better on me than it did you<br>
   Only if you knew how much I like you...<br></em>
-  <img src="me-in-blue-hoodie.JPEG" alt="Me in blue hoodie" style="max-width:25%; border-radius:10px; margin-top:10px;">
-  <img src="her-in-my-sweater.JPEG" alt="Me in blue hoodie" style="max-width:25%; border-radius:10px; margin-top:10px;">`,
+
+  <div style="display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 10px;">
+    <img src="me-in-blue-hoodie.JPEG" 
+        alt="Me in blue hoodie" 
+        style="max-width:25%; border-radius:10px;">
+    <img src="her-in-my-sweater.JPEG" 
+        alt="Her in my sweater" 
+        style="max-width:25%; border-radius:10px;">
+  </div>`,
+
   "<strong>Day 4:</strong> Today i just wanted to remind you of how much i love your eyes, like they are literally my favourite thing to look into, and it might sound stupid but they genuinely make my heart feel like warm inside. I love you so much baby❤️",
   "<strong>Day 5:</strong> I am still genuinely surprised as to how YOU (a literal goddess look-a-like with the most adorable smile, who is also so fucking smart and sweet to me and treats me so well and has the most loving soul) somehow decided to be with me (an okay person) but i will forever be grateful for it :)",
   "<strong>Day 6:</strong> I don’t know it i mentioned this one before but i genuinely love your smile. Like i know you don’t like it but it’s literally so fucking adorable and cute. I will literally do anything just to see you smile. It literally warms up my soul. ",

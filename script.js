@@ -25,7 +25,7 @@ const content = [
   
   `<strong>Day 8:</strong> <br>
    <div style="display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 10px;">
-    <img src="guitar-cover.PNG" 
+    <img src="guitar-cover.png" 
         alt="Guitar cover ticket" 
         style="max-width:25%; border-radius:10px;">
    </div><br> 
@@ -38,7 +38,7 @@ const content = [
  
   `<strong>Day 13:</strong><br>
     <div style="display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 10px;">
-    <img src="anything-you-want.PNG" 
+    <img src="anything-you-want.png" 
         alt="Anything you want ticket" 
         style="max-width:25%; border-radius:10px;">
    </div><br>
@@ -67,7 +67,7 @@ const content = [
  
   `<strong>Day 17:</strong><br>  
     <div style="display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 10px;">
-      <img src="movie-night-pick.PNG" 
+      <img src="movie-night-pick.png" 
           alt="Movie night pick ticket" 
           style="max-width:25%; border-radius:10px;">
     </div><br> 
@@ -77,7 +77,7 @@ const content = [
   
   `<strong>Day 19:</strong><br> 
     <div style="display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 10px;">
-      <img src="unlimited-cuddles.PNG" 
+      <img src="unlimited-cuddles.png" 
           alt="Unlimited cuddles ticket" 
           style="max-width:25%; border-radius:10px;">
     </div><br>
@@ -88,7 +88,7 @@ const content = [
 
   `<strong>Day 22:</strong><br> 
     <div style="display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 10px;">
-      <img src="unlimited-kisses.PNG" 
+      <img src="unlimited-kisses.png" 
           alt="Unlimited kisses ticket" 
           style="max-width:25%; border-radius:10px;">
     </div><br> 

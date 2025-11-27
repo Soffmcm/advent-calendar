@@ -2,7 +2,7 @@
 const content = [
   "<strong>Day 1:</strong> Hi babyyy, as the first note of this calendar i thought i’d just explain what this is all about. <br> After that  time u told me that you wanted an advent calendar, i thought “omg let me look for a lipgloss one online and try to get it for her” but unfortunately i don’t have 60€ (as the cheapest option), but then i thought “wait why don’t i try do something else?” And i came up with the idea of making this kind of calendar :) which i thought could be sweet too :) <br><strong>But how does it work?</strong> <br> Well every day a new “day” will unlock and you can see a little note that i left for you for that day :) and don’t even try to open future days because i made sure that they are locked until its time to open them :))",
   "<strong>Day 2:</strong> Today i just wanted to let you know that I genuinely never loved someone and felt like someone loved me so truthfully and genuinly as i do about you. Just a reminder that i love you more than anything❤️",
- `<strong>Day 3:</strong> <em>I still remember, third of December, 
+ `<strong>Day 3:</strong> <em>I still remember, third of December,<br> 
   me in your sweater<br>
   You said it looked better on me than it did you<br>
   Only if you knew how much I like you...<br></em>

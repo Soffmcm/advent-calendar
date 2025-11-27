@@ -45,7 +45,24 @@ const content = [
   screenshot this ticket and save it for whenever you want something from me, this can be anything. It can be redeemed ONCE and it doesn't exprire. Use it wisely! `,
  
   "<strong>Day 14:</strong> I genuinely cannot wait to go to uni, and i hope you know im the type of person who used to me TERRIFIED of going to uni. The only thing that makes me look forwards to it is the fact that we’ll be seeing each other WAYYYY more often :)",
-  "<strong>Day 15:</strong> .",
+  `<strong>Day 15:</strong> List of things i love:<ol>
+    <li>You</li>
+    <li>My beautiful girlfriend</li>
+    <li>The love of my life</li>
+    <li>The prettiest girl on earth</li>
+    <li>The girl of my dreams</li>
+    <li>The smartest girl on earth</li>
+    <li>The sweetest girl on earth</li>
+    <li>The most amazing person on this planet</li>
+    <li>The comfiest person to cuddle</li>
+    <li>My future wife</li>
+    <li>Snowboarding</li>
+    <li>Guitar</li>
+    <li>Sharks</li>
+    <li>Spiderman</li>
+    <li>Billie Eilish</li>
+  </ol>
+  (P.S: incase you didn’t notice 1-10 are about you)`,
   "<strong>Day 16:</strong> HAPPY 1 MONTH BABYYYY, At the moment im writting this it hasn't been a month just yet, but I already know that this last month was already much better than any other just because I got to be yours (yes even with mock exams and everything). I love you so much baby and I'm so grateful to have you in my life❤️❤️",
  
   `<strong>Day 17:</strong><br>  
@@ -78,7 +95,7 @@ const content = [
   screenshot this ticket, its valid forever and can be used for unlimited kisses whenever you want:)`,
   
   "<strong>Day 23:</strong>I hope you know you really are my favorite person ever on the face of the earth, and this entier universe too tbh, and if there's anything beyond that then you're still my favorite including them too :) Just in general, I love being around you and I never get tierd of you even after being together for days, and usually I can't put up with people for many hours okay so it really does mean alot. I love you so much baby❤️",
-  "<strong>Day 24:</strong> Merry Christmas Eve baby 🎄❤️ I love you more than words."
+  "<strong>Day 24:</strong> MERRY CHRISTMAS MY LOVE!!!! <br>I hope you enjoyed the little messages and things I left for you each day :) I really wished that I could be with you specially today, and that we could be celebrating christmas together. I hope you know that my goal is to eventually be able to spend all christmases and holidays and every day by your side (good luck ever getting rid of me :)). So yeah I hope you still have a really amazing christmas no matter where you are or who you are with because you really deserve it. I love you so much baby and I can't wait to see you again, its the only thing on my christmas list❤️ ",
 ];
 
 document.addEventListener("DOMContentLoaded", () => {

@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
   shuffle(days);
 
   // TEMP: unlock everything for testing
-  const today = 24;
+  const today = 5;
 
   // Render doors in shuffled order
   for (let day of days) {

@@ -1,7 +1,7 @@
 // 24 messages for each day (edit these to whatever you want!)
 const content = [
   `<div style="text-align:left;">
-    Hi babyyy, <br>
+    <strong>Hi babyyy,</strong><br>
     As the first note of this calendar i thought i’d just explain what this is all about. <br>
     After that  time u told me that you wanted an advent calendar, i thought “omg let me look for a lipgloss one online and try to get it for her” but unfortunately i don’t have 60€ (as the cheapest option), but then i thought “wait why don’t i try do something else?” And i came up with the idea of making this kind of calendar :) which i thought could be sweet too :) <br>
     <strong>But how does it work?</strong> <br>
@@ -124,13 +124,30 @@ document.addEventListener("DOMContentLoaded", () => {
     door.dataset.day = day;
 
     // click behavior: show popup with the correct message
-    door.addEventListener("click", () => {
-      // TEMP: all doors unlocked for testing
-      const message = content[day - 1] || "No content yet for this day.";
-      popupText.innerHTML = `<strong>Day ${day}</strong><br><br>${message}`;
-      door.classList.add("opened"); // mark door as opened
-      popup.classList.remove("hidden");
-    });
+door.addEventListener("click", () => {
+  const message = content[day - 1] || "No content yet for this day.";
+  if (day > today) {
+    // Show locked message instead
+    popupText.innerHTML =
+      "It's too early to open this one, be patient baby and come back another day :)";
+     
+     // Add shake class
+    door.classList.add("locked-shake");
+
+    // Remove it after the animation ends so it can shake again later
+    setTimeout(() => {
+      door.classList.remove("locked-shake");
+    }, 400);
+
+   } else {
+    // Normal open
+    popupText.innerHTML = `<strong>Day ${day}</strong><br><br>${message}`;
+    door.classList.add("opened");
+  }
+
+  // Show popup either way
+  popup.classList.remove("hidden");
+});
 
     calendar.appendChild(door);
   }

@@ -105,3 +105,16 @@ body {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+@keyframes locked-shake {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  20% { transform: translate(-3px, 0) rotate(-2deg); }
+  40% { transform: translate(3px, 0) rotate(2deg); }
+  60% { transform: translate(-3px, 0) rotate(-2deg); }
+  80% { transform: translate(3px, 0) rotate(2deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.locked-shake {
+  animation: locked-shake 0.4s ease-in-out;
+}

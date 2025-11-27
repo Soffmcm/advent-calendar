@@ -11,10 +11,10 @@ const content = [
   <div style="display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 10px;">
     <img src="me-in-blue-hoodie.JPEG" 
         alt="Me in blue hoodie" 
-        style="max-width:25%; border-radius:10px;">
+        style="max-width:45%; border-radius:10px;">
     <img src="her-in-my-sweater.JPEG" 
         alt="Her in my sweater" 
-        style="max-width:25%; border-radius:10px;">
+        style="max-width:45%; border-radius:10px;">
   </div>
   It genuinely does look so much better on you my love :) <3`,
 
@@ -27,7 +27,7 @@ const content = [
    <div style="display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 10px;">
     <img src="guitar-cover.png" 
         alt="Guitar cover ticket" 
-        style="max-width:50%; border-radius:10px;">
+        style="max-width:100%; border-radius:10px;">
    </div><br> 
   screenshot this ticket, you can use it whenever you want, just name a song and i’ll learn it for you  and send you a video of me playing it:) `,
  
@@ -40,7 +40,7 @@ const content = [
     <div style="display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 10px;">
     <img src="anything-you-want.png" 
         alt="Anything you want ticket" 
-        style="max-width:45%; border-radius:10px;">
+        style="max-width:100%; border-radius:10px;">
    </div><br>
   screenshot this ticket and save it for whenever you want something from me, this can be anything. It can be redeemed ONCE and it doesn't exprire. Use it wisely! `,
  
@@ -79,7 +79,7 @@ const content = [
     <div style="display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 10px;">
       <img src="unlimited-cuddles.png" 
           alt="Unlimited cuddles ticket" 
-          style="max-width:25%; border-radius:10px;">
+          style="max-width:100%; border-radius:10px;">
     </div><br>
   screenshot this ticket, its valid forever and never runs out. It can be exchanged for cuddles whenever you want :)  `,
 
@@ -90,7 +90,7 @@ const content = [
     <div style="display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 10px;">
       <img src="unlimited-kisses.png" 
           alt="Unlimited kisses ticket" 
-          style="max-width:85%; border-radius:10px;">
+          style="max-width:100%; border-radius:10px;">
     </div><br> 
   screenshot this ticket, its valid forever and can be used for unlimited kisses whenever you want:)`,
   

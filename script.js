@@ -109,12 +109,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const popupText = document.getElementById("popup-text");
   const closeBtn = document.getElementById("close");
 
-  // Create array of days 1..24 and shuffle it
+  // -------- REAL DATE LOCKING --------
+  // December days: if today = Dec 5 → only doors 1–5 open
+  const now = new Date();
+  let realToday = now.getMonth() === 11 ? now.getDate() : 0; 
+  // (Month 11 = December. If it's not December, everything stays locked.)
+
+
+    // Generate days 1–24 in random order
   let days = Array.from({ length: 24 }, (_, i) => i + 1);
   shuffle(days);
 
-  // TEMP: unlock everything for testing
-  const today = 5;
 
   // Render doors in shuffled order
   for (let day of days) {
@@ -122,32 +127,36 @@ document.addEventListener("DOMContentLoaded", () => {
     door.classList.add("door");
     door.innerText = day;
     door.dataset.day = day;
+    
+    // Apply locked style if needed
+    if (day > realToday) {
+      door.classList.add("locked");
+    }
 
     // click behavior: show popup with the correct message
-door.addEventListener("click", () => {
-  const message = content[day - 1] || "No content yet for this day.";
-  if (day > today) {
-    // Show locked message instead
-    popupText.innerHTML =
-      "It's too early to open this one, be patient baby and come back another day :)";
-     
-     // Add shake class
-    door.classList.add("locked-shake");
+  door.addEventListener("click", () => {
+    const message = content[day - 1] || "No content yet for this day.";
+  
+    if (day > realToday) {
+      // Show locked message instead
+      popupText.innerHTML =
+        "It's too early to open this one, be patient baby and come back another day :)";
+      
+      // Add shake class
+      door.classList.add("locked-shake");
+      // Remove it after the animation ends so it can shake again later
+      setTimeout(() => door.classList.remove("locked-shake"), 400);
 
-    // Remove it after the animation ends so it can shake again later
-    setTimeout(() => {
-      door.classList.remove("locked-shake");
-    }, 400);
+    } else {
+      // Normal open
+      popupText.innerHTML = `<strong>Day ${day}</strong><br><br>${message}`;
+      door.classList.add("opened");
+      door.classList.remove("locked");
+    }
 
-   } else {
-    // Normal open
-    popupText.innerHTML = `<strong>Day ${day}</strong><br><br>${message}`;
-    door.classList.add("opened");
-  }
-
-  // Show popup either way
-  popup.classList.remove("hidden");
-});
+    // Show popup either way
+    popup.classList.remove("hidden");
+  });
 
     calendar.appendChild(door);
   }

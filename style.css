@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: url('almost-orange-image.png') no-repeat center center fixed;
+    background: url('new-background.png') no-repeat center center fixed;
     background-size: cover;      /* ensures full screen coverage */
     background-position: center; /* keeps it centered */
     background-repeat: no-repeat;
